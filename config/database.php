@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'coopgenss-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'coopgenss-server-mysql-database-azure-com'),
+            'database'  => env('DB_DATABASE', 'coopgenss-database'),
             'username'  => env('DB_USERNAME', 'yajinzwsrg'),
             'password'  => env('DB_PASSWORD', '52212O3FR02A77FG$'),
             'unix_socket' => env('DB_SOCKET', ''),
